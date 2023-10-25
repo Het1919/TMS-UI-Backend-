@@ -1,0 +1,125 @@
+.ant-pro-card-title {
+    margin: auto;
+    /* text-align: center; */
+}
+
+.ant-pro-card-body {
+    padding: .8rem !important;
+}
+
+.ant-row {
+    justify-content: space-between !important;
+}
+
+.ant-col {
+    padding-inline: 0px !important;
+    margin-inline: 1rem;
+}
+
+.ant-pro-card {
+    /* flex direction already set : "column" by them */
+
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    text-align: start;
+}
+
+.agg-card-col {
+    /* border: 2px solid; */
+    /* margin: 1rem !important; */
+    min-width: 44%;
+    max-width: 44%;
+}
+
+.agg-info:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+}
+
+.ant-pro-card-header {
+    /* border: 1px solid; */
+    /* border-radius: .5rem; */
+    box-shadow: 0px 5px 7px -1px rgba(0, 0, 0, 0.07) !important;
+    display: flex;
+    align-items: center;
+    padding: 0px !important;
+    padding-block: .5rem !important;
+}
+
+.ant-pro-card-title {
+    /* border: 1px solid; */
+    color: rgb(1, 1, 139) !important;
+    font-size: 1.2rem !important;
+    margin-block: auto;
+}
+
+@media (min-width:1440px) {
+    .agg-card-col {
+        min-width: 30%;
+        max-width: 30%;
+    }
+}
+
+@media (max-width:1440px) {
+
+    .agg-card-col {
+        min-width: 44%;
+        max-width: 44%;
+    }
+}
+
+@media (max-width:950px) {
+    .ant-row {
+        justify-content: center !important;
+    }
+
+    .agg-card-col {
+
+        min-width: 64%;
+        max-width: 64%;
+    }
+}
+
+@media (max-width:767px) {
+    .ant-row {
+        justify-content: space-between !important;
+    }
+
+    .agg-card-col {
+
+        min-width: 44%;
+        max-width: 44%;
+    }
+}
+
+
+@media (max-width:700px) {
+    .ant-row {
+        justify-content: center !important;
+    }
+
+    .agg-card-col {
+
+        min-width: 64%;
+        max-width: 64%;
+    }
+}
+
+@media (max-width:576px) {
+
+    .agg-card-col {
+
+        min-width: 84%;
+        max-width: 84%;
+    }
+}
+
+@media (max-width:576px) {
+
+    .agg-card-col {
+
+        min-width: 100%;
+        max-width: 100%;
+    }
+}

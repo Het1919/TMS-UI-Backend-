@@ -1,0 +1,30 @@
+/* CreateBanks.css */
+.create-tenant-container {
+    display: flex;
+    justify-content: center;
+    /* height: 100vh; */
+    margin-top: 2rem;
+}
+
+.create-tenant-card {
+    width: 100%;
+    height: 40vh;
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.submit-button-container {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .create-bank-card {
+        box-shadow: none;
+    }
+}

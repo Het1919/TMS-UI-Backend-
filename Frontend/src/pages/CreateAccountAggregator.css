@@ -1,0 +1,60 @@
+/* CreateAccountAggregator.css */
+.create-account-aggregator-container {
+    display: flex;
+    flex-direction: column;
+    /* Change to column layout */
+    align-items: center;
+    /* Center the card vertically */
+    margin-top: 2rem;
+}
+
+.create-account-aggregator-card {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+.create-account-aggregator-title {
+    font-size: 1.5rem;
+}
+
+.create-account-aggregator-divider {
+    margin: 16px 0;
+}
+
+.create-account-aggregator-form-item {
+    margin-bottom: 16px;
+}
+
+.create-account-aggregator-form-container {
+    flex-grow: 1;
+    overflow-y: auto;
+    position: relative;
+    /* Make it a relative position container */
+}
+
+.create-account-aggregator-submit-button {
+    width: 15rem;
+    position: sticky;
+    /* Make the button sticky */
+    bottom: 20px;
+    /* Adjust the position as needed */
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .create-account-aggregator-card {
+        box-shadow: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .create-account-aggregator-card {
+        height: 55vh;
+    }
+}
